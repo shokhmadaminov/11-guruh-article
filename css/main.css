@@ -23,3 +23,82 @@ body {
     background-color: #fff;
 }
 
+/* MAIN SECTION STYLES */
+.site-main {
+    width: 100%;
+    max-width: 1200px;
+    flex-grow: 1;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+/* LEFT SECTION STYLES */
+.left-section {
+    width: 100%;
+    max-width: 600px;
+    background-image: url("../images/left-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left-section-content {
+    width: 285px;
+}
+.left-section-title {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28.8px;
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+.left-section-btn {
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 12px 24px;
+    background-color: #1e90ff;
+    display: inline-flex;
+    align-items: center;
+}
+.left-section-btn:hover {
+    background-color: rgba(30, 144, 255, 0.8);
+}
+.left-section-btn:active {
+    background-color: rgba(30, 144, 255, 0.6);
+}
+.left-section-btn-icon {
+    width: 20px;
+    height: 20px;
+    background-image: url("../images/star-icon.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-right: 12px;
+}
+
+
+
+
+
+
+
+
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+    .left-section {
+        background-image: url("../images/left-bg@2x.jpg");
+    }
+}
